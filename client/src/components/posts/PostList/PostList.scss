@@ -1,0 +1,40 @@
+@import '../../../sass/abstracts/_variables.scss';
+
+.postList {
+  overflow: hidden;
+
+  &__list:nth-of-type(1) {
+    border-top: 1px solid $color-gray-01;
+  }
+
+  &__list:last-of-type {
+    margin-bottom: 2rem;
+  }
+
+  &__list {
+    display: flex;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid $color-gray-01;
+  }
+
+  .fa-bookmark {
+    font-size: 2rem;
+    position: relative;
+    padding-right: 1rem;
+  }
+
+  .btn-wrapper {
+    margin-left: auto;
+  }
+
+  .btn__edit {
+    margin-right: .5rem;
+  }
+
+  .btn__create-post {
+    float: right;
+    display: inline-block;
+    margin-left: auto;
+  }
+}

@@ -1,0 +1,14 @@
+@import '../abstracts/_variables.scss';
+
+body, a {
+  font-family: 'Lato';
+  color: $color-black-01;
+}
+
+a:hover {
+  color: $color-blue-01;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}

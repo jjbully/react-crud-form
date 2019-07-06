@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "title": "Create post",
+      "content": "In order to create and save post to the local JSON server, you need to log in with your google account",
+      "id": 1
+    },
+    {
+      "title": "Edit and Delete post",
+      "content": "Editing and Deleting post can be done with the post under the same Google Log-in ID",
+      "id": 2
+    }
+  ]
+}

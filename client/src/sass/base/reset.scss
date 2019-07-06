@@ -1,0 +1,33 @@
+@import-normalize;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+html {
+  // This defines what 1rem is
+  font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+button {
+  &:focus {
+    outline: 0
+  }
+
+  &:active {
+    border-style: none;
+  }
+}

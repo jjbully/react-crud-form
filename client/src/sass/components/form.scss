@@ -1,0 +1,36 @@
+@import '../abstracts/_variables.scss';
+
+form {
+  label {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: .4rem;
+  } 
+
+  input {
+    font-size: 1.4rem;
+    font-weight: 400;
+    border-radius: .4rem;
+    border: 1px solid $color-gray-01;
+    padding: 0.95rem 1.4rem;
+    margin-bottom: 2rem;
+    width: 100%;
+
+    &.input--error {
+      outline: 0;
+      background-color: $color-pink-02;
+      border: 1px solid $color-pink-01;
+    }
+
+  }
+
+  .message {
+    &__error {
+      font-size: 1.3rem;
+      color: $color-orange;
+      margin-top: -1rem;
+      margin-bottom: 1rem;
+    }
+  }
+}

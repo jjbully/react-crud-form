@@ -1,0 +1,45 @@
+@import '../abstracts/_variables.scss';
+
+.btn {
+  font-family: 'Lato';
+  font-size: 1.3rem;
+  padding: 1.1rem 2.1rem;
+  color: $color-white;
+  font-weight: 700;
+  border-radius: 0.6rem;
+  border: none;
+
+
+  &:hover {
+    color: $color-white;
+    opacity: .5;
+    cursor: pointer;
+  }
+
+  &:active {
+    border-style: none;
+  }
+
+  &--submit {
+    background-color: $color-blue-01;
+  }
+
+  &--red {
+    background-color: $color-red;
+  }
+
+  &--blue {
+    background-color: $color-blue-01;
+  }
+
+  &--gray,
+  &--gray:hover {
+    background-color: $color-gray-02;
+    color: $color-black-02;
+  }
+
+  &--google i {
+    opacity: .8;
+    margin-right: 0.5rem;
+  }
+}
